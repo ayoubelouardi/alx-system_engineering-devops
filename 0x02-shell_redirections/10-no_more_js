@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRp *.js | rm -f   
+file -name "*.js" -type -f -delete
