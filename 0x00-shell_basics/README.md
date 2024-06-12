@@ -224,6 +224,6 @@ The project is organized into tasks, each with its own file. The tasks are divid
 
 For any questions or suggestions, please contact me at:
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Your Name - [ayoubelouardioff@gmail.com](mailto:ayoubelouardioff@gmail.com)
 
-Project Link: [https://github.com/yourusername/alx-journey-system-engineering-devops](https://github.com/yourusername/alx-journey-system-engineering-devops)
+Project Link: [https://github.com/ayoubelouardi/alx-system_engineering-devops](https://github.com/yourusername/alx-journey-system-engineering-devops)
