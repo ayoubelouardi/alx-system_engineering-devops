@@ -20,7 +20,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
 
 ## Mandatory Tasks
 
-1. **0. Where am I?**
+### **0. Where am I?**
    - **File:** `0-current_working_directory`
    - **Description:** Write a script that prints the absolute path name of the current working directory.
    - **Example:**
@@ -29,7 +29,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      /root/alx-system_engineering-devops/0x00-shell_basics
      ```
 
-2. **1. What’s in there?**
+### **1. What’s in there?**
    - **File:** `1-listit`
    - **Description:** Display the contents list of your current directory.
    - **Example:**
@@ -39,7 +39,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      Desktop         Downloads    Library  Music   Public
      ```
 
-3. **2. There is no place like home**
+### **2. There is no place like home**
    - **File:** `2-bring_me_home`
    - **Description:** Write a script that changes the working directory to the user’s home directory.
    - **Example:**
@@ -49,7 +49,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      /home/julien
      ```
 
-4. **3. The long format**
+### **3. The long format**
    - **File:** `3-listfiles`
    - **Description:** Display current directory contents in a long format.
    - **Example:**
@@ -60,7 +60,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      -rwxr-xr-x@ 1 sylvain staff 19 Jan 25 00:23 1-listit
      ```
 
-5. **4. Hidden files**
+### **4. Hidden files**
    - **File:** `4-listmorefiles`
    - **Description:** Display current directory contents, including hidden files (starting with `.`) in long format.
    - **Example:**
@@ -71,7 +71,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      drwxr-xr-x@ 43 sylvain staff 1462 Jan 25 00:19 ..
      ```
 
-6. **5. I love numbers**
+### **5. I love numbers**
    - **File:** `5-listfilesdigitonly`
    - **Description:** Display current directory contents in long format with user and group IDs displayed numerically and including hidden files.
    - **Example:**
@@ -82,7 +82,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      drwxr-xr-x@ 43 501 20 1462 Jan 25 00:19 ..
      ```
 
-7. **6. Welcome**
+### **6. Welcome**
    - **File:** `6-firstdirectory`
    - **Description:** Create a script that creates a directory named `my_first_directory` in the `/tmp/` directory.
    - **Example:**
@@ -92,7 +92,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      /tmp/my_first_directory/: directory
      ```
 
-8. **7. Betty in my first directory**
+### **7. Betty in my first directory**
    - **File:** `7-movethatfile`
    - **Description:** Move the file `betty` from `/tmp/` to `/tmp/my_first_directory/`.
    - **Example:**
@@ -102,7 +102,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      betty
      ```
 
-9. **8. Bye bye Betty**
+### **8. Bye bye Betty**
    - **File:** `8-firstdelete`
    - **Description:** Delete the file `betty` in `/tmp/my_first_directory`.
    - **Example:**
@@ -121,7 +121,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
       /tmp/my_first_directory: cannot open `/tmp/my_first_directory' (No such file or directory)
       ```
 
-11. **10. Back to the future**
+### **10. Back to the future**
     - **File:** `10-back`
     - **Description:** Write a script that changes the working directory to the previous one.
     - **Example:**
@@ -130,11 +130,11 @@ The project is organized into tasks, each with its own file. The tasks are divid
       /tmp
       ```
 
-12. **11. Lists**
+### **11. Lists**
     - **File:** `11-lists`
     - **Description:** Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the `/boot` directory (in this order), in long format.
 
-13. **12. File type**
+### **12. File type**
     - **File:** `12-file_type`
     - **Description:** Write a script that prints the type of the file named `iamafile`. The file `iamafile` will be in the `/tmp` directory when we will run your script.
     - **Example:**
@@ -143,7 +143,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
       /tmp/iamafile: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=bd39c07194a778ccc066fc963ca152bdfaa3f971, stripped
       ```
 
-14. **13. We are symbols, and inhabit symbols**
+### **13. We are symbols, and inhabit symbols**
     - **File:** `13-symbolic_link`
     - **Description:** Create a symbolic link to `/bin/ls`, named `__ls__`. The symbolic link should be created in the current working directory.
     - **Example:**
@@ -153,13 +153,13 @@ The project is organized into tasks, each with its own file. The tasks are divid
       lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
       ```
 
-15. **14. Copy HTML files**
+### **14. Copy HTML files**
     - **File:** `14-copy_html`
     - **Description:** Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension `.html`.
 
 ## Advanced Tasks
 
-1. **15. Let’s move**
+### **15. Let’s move**
    - **File:** `100-lets_move`
    - **Description:** Create a script that moves all files beginning with an uppercase letter to the directory `/tmp/u`. You can assume that the directory `/tmp/u` will exist when we will run your script.
    - **Example:**
@@ -167,7 +167,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      $ ./100-lets_move
      ```
 
-2. **16. Clean Emacs**
+### **16. Clean Emacs**
    - **File:** `101-clean_emacs`
    - **Description:** Create a script that deletes all files in the current working directory that end with the character `~`.
    - **Example:**
@@ -175,7 +175,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      $ ./101-clean_emacs
      ```
 
-3. **17. Tree**
+### **17. Tree**
    - **File:** `102-tree`
    - **Description:** Create a script that creates the directories `welcome/`, `welcome/to/`, and `welcome/to/school` in the current directory. You are only allowed to use two spaces (and lines) in your script, not more.
    - **Example:**
@@ -183,7 +183,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      $ ./102-tree
      ```
 
-4. **18. Life is a series of commas, not periods**
+### **18. Life is a series of commas, not periods**
    - **File:** `103-commas`
    - **Description:** Write a command that lists all the files and directories of the current directory, separated by commas (,).
      - Directory names should end with a slash (/)
@@ -199,7 +199,7 @@ The project is organized into tasks, each with its own file. The tasks are divid
      ./, ../, 0-commas, 0-commas-checks/, 1-empty_casks, 2-gifs, 3-directories, 4-zeros, 5-rot13, 6-odd, 7-sort_rot13, Makefile, quote, .test, test_dir/, test.var
      ```
 
-19. **19. File type: School**
+### **19. File type: School**
    - **File:** `school.mgc`
    - **Description:** Create a magic file `school.mgc` that can be used with the command `file` to detect School data files. School data files always contain the string SCHOOL at offset 0.
    - **Example:**
