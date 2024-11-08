@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# this is a comment
+
+# source: https://linuxize.com/post/ps-command-in-linux/
+ps -auxf
