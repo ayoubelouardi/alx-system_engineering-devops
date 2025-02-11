@@ -25,7 +25,8 @@ def get_employee_todo_progress(employee_id):
     num_done = len(done_tasks)
 
     # Display results
-    print(f"Employee {employee_name} is done with tasks({num_done}/{total_tasks}):")
+    print(f"Employee {employee_name} is done with
+          tasks({num_done}/{total_tasks}):")
     for task in done_tasks:
         print(f"\t {task.get('title')}")
 
