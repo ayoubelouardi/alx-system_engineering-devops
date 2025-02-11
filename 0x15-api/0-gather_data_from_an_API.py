@@ -14,7 +14,7 @@ def get_employee_todo_progress(employee_id):
     employee_name = user_data.get('name')
 
     # Fetch todos data
-    todos_url = f"https://jsonplaceholder.typicode.com/users/{employee_id}/todos"
+    todos_url = f"{user_url}/todos"
     todos_response = requests.get(todos_url)
     todos_response.raise_for_status()
     todos_data = todos_response.json()
@@ -34,13 +34,13 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python3 0-gather_data_from_an_API.py <employee_id>")
         sys.exit(1)
-    
+
     try:
         employee_id = int(sys.argv[1])
     except ValueError:
         print("Employee ID must be an integer.")
         sys.exit(1)
-    
+
     try:
         get_employee_todo_progress(employee_id)
     except requests.exceptions.HTTPError as e:
